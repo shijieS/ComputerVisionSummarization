@@ -38,6 +38,7 @@ It performs well. This is all the [result](https://pan.baidu.com/s/1nvefTPZ)
 
 # Summary
 - Mask RCNN is amazing, but it's not fast enough for real time detection.
+- There are lots of computer vision tasks need to be done, and only few tasks are finished. Obejct recognition is the simplest task, which is extremly handled and the rate of recognition is more than that of human beings. But, the majority tasks are still need to be done, such as: action recogition, action predict, 3D object recognition, 3D object representation, 3D action recognition, represention of speak, smell, feel and vision. Machine vision is the kernel task for robot intelligence. So don't worry about nothing to do in this field.
 
 # Reference
 http://www.themtank.org/a-year-in-computer-vision
