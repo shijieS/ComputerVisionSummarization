@@ -38,6 +38,21 @@ I have the mask rcnn in bus scene.
  
 It performs well. This is all the [result](https://pan.baidu.com/s/1nvefTPZ)
 
+# Lip language
+It's an amazing thing that training lip language recogition
+
+## Learning Lip Sync from Audio
+- given the audio of President Barack Obama, we synthesize a high quality video of him speaking with accurate lip sync. see [video](https://youtu.be/9Yq67CjDqvw)
+
+# Some Interesting
+## Aging photo prediction
+- takes a single photograph of a child as input and automatically produces a series of age-progressed outputs between 1 and 80 years of age, accounting for pose, expression, and illumination. see [video](https://youtu.be/QuKluy7NAvE?list=PLDeWtkr3kw-2_888O0qgVNC-uoEyyaWmm)
+
+## 3D panorama
+- [A 3D panorama](https://youtu.be/1oWBsR8zTP0)
+
+## [PanoCatcher](https://youtu.be/DCcjgZmDwJ0)
+
 # Tracking
 
 # Action Recognition
@@ -49,6 +64,7 @@ It performs well. This is all the [result](https://pan.baidu.com/s/1nvefTPZ)
 # 3D Action Recognition
 
 # 3D Point Cloud Representation
+
 
 # Summary
 - Mask RCNN is amazing, but it's not fast enough for real time detection.
