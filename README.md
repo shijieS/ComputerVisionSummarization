@@ -16,10 +16,11 @@
     - [6.2. D panorama](#62-d-panorama)
     - [6.3. PanoCatcher](#63-panocatcher)
 - [7. Tracking](#7-tracking)
-    - [7.1. Correlation Filter](#71-correlation-filter)
-    - [7.2. End-to-end representation learning for correlation filter based tracking](#72-end-to-end-representation-learning-for-correlation-filter-based-tracking)
-    - [7.3. Attentional Correlation Filter Network for Adaptive Visual Tracking](#73-attentional-correlation-filter-network-for-adaptive-visual-tracking)
-    - [7.4. Context-Aware Correlation Filter Tracking](#74-context-aware-correlation-filter-tracking)
+    - [7.1. MOT](#71-mot)
+    - [7.2. Correlation Filter](#72-correlation-filter)
+    - [7.3. End-to-end representation learning for correlation filter based tracking](#73-end-to-end-representation-learning-for-correlation-filter-based-tracking)
+    - [7.4. Attentional Correlation Filter Network for Adaptive Visual Tracking](#74-attentional-correlation-filter-network-for-adaptive-visual-tracking)
+    - [7.5. Context-Aware Correlation Filter Tracking](#75-context-aware-correlation-filter-tracking)
 - [8. Action Recognition](#8-action-recognition)
 - [9. Reconstruction](#9-reconstruction)
 - [10. Detection](#10-detection)
@@ -136,8 +137,25 @@ It's an amazing thing that training lip language recogition
 ## 6.3. [PanoCatcher](https://youtu.be/DCcjgZmDwJ0)
 
 # 7. Tracking
-## 7.1. Correlation Filter
-## 7.2. End-to-end representation learning for correlation filter based tracking
+
+## 7.1. MOT
+
+| method name | title                                                                                                                                                | paper   | author                                                             | rate        |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------ | ----------- |
+| CDA_DDALv2  | [Confidence-Based Data Association and Discriminative Deep Appearance Learning for Robust Online Multi-Object Tracking](./papers/07893777.pdf)       | TPAMI   | MLA Bae, Seung-Hwan, and Kuk-Jin Yoon.                             | reading now |
+| FWT         | [Fusion of Head and Full-Body Detectors for Multi-Object Tracking](./papers/1705.08314.pdf)                                                          | CVPR18  | Roberto Henschel, Laura Leal-Taixe, Daniel Cremers, Bodo Rosenhahn | reading now |
+| LMP         | [Multiple people tracking by lifted multicut and person re-identification](./papers/Multiple_People_Tracking.pdf)                                    | CVPR17  | Tang, Siyu, et al.                                                 | reading now |
+| NLLMPa      | [Joint graph decomposition & node labeling: Problem, algorithms, applications.](./papers/1611.04399.pdf)                                             | CVPR17  | Levinkov, Evgeny, et al.                                           | reading now |
+| QuadMOT16   | [ Multi-Object Tracking with Quadruplet Convolutional Neural Networks](./papers/08099886.pdf)                                                        | CVPR17  | Son, Jeany, et al.                                                 | reading now |
+| EDMT        | [Enhancing Detection Model for Multiple Hypothesis Tracking](./papers/Chen_Enhancing_Detection_Model)                                                | CVPR17w | Chen, Jiahui, et al.                                               | reading now |
+| AMIR        | [Tracking the untrackable: Learning to track multiple cues with long-term dependencies](./papers/1701.01909.pdf)                                     | ICCV17  | Sadeghian, Amir, Alexandre Alahi, and Silvio Savarese.             | reading now |
+| STAM16      | [Online Multi-Object Tracking Using CNN-based Single Object Tracker with Spatial-Temporal Attention Mechanism.](./papers/1708.02843.pdf)             | ICCV17  | Chu, Qi, et al.                                                    | reading now |
+| LINF1       | [Improving Multi-Frame Data Association with Sparse Representations for Robust Near-Online Multi-Object Tracking](./papers/978-3-319-46484-8_47.pdf) | ECCV16  | L. Fagot-Bouquet, R. Audigier, Y. Dhome, F. Lerasle                | reading now |
+| EAMTT       | [Multi-target tracking with strong and weak detections](./papers/eamtt.pdf)                                                                          | ECCV16w | R. Sanchez-Matilla, F. Poiesi, A. Cavallaro                        | reading now |
+| LTTSC-CRF   | [Long-Term Time-Sensitive Costs for CRF-Based Tracking by Detection](./papers/lttsc-crf.pdf)                                                         | ECCV16w | Le, Nam, Alexander Heili, and Jean-Marc Odobez.                    | reading now |
+
+## 7.2. Correlation Filter
+## 7.3. End-to-end representation learning for correlation filter based tracking
 > It is a tracking method based on deep learning. This author designed a network consisting of correlation filter layer, who solved the backpropagation program 
 - I have tried this method. But it doesn't work well and have some test failure cases, as following
 
@@ -155,15 +173,14 @@ It's an amazing thing that training lip language recogition
 - My opion:
     - Tracking should be combined both the object feature itself and the context feature.
  
-## 7.3. Attentional Correlation Filter Network for Adaptive Visual Tracking
+## 7.4. Attentional Correlation Filter Network for Adaptive Visual Tracking
 - paper, [video](https://youtu.be/WCcaxLiDuyI), [code](https://github.com/jongwon20000/ACFN.git)
 - advantage:
 - disadvantage:
     - slow. Cannot run in real-time.
  
-## 7.4. Context-Aware Correlation Filter Tracking
+## 7.5. Context-Aware Correlation Filter Tracking
 - Bas
-
 
 # 8. Action Recognition
 - [video](https://youtu.be/pW6nZXeWlGM), [paper](https://www.youtube.com/redirect?q=https%3A%2F%2Farxiv.org%2Fabs%2F1611.08050&event=video_description&v=pW6nZXeWlGM&redir_token=Es81J58cRaIs9GIo7M9nO-sakuB8MTUxNDAxNDIwMUAxNTEzOTI3ODAx)
